@@ -1,0 +1,83 @@
+:root{
+	--vermelho: #ff0000;
+	--preta: #141414;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+	background: var(--preta);
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+
+}
+div.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+}.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+
+
+}.area-usuario{
+	margin-right: 400px;
+}
+.area-usuario a{
+	text-decoration: none;
+	color: #aaa;
+	margin-right: 10px;
+
+}
+.area-usuario a:hover{
+		color: #fff;
+}
+.carousel-filmes{
+	margin-top: 30px;
+	position: relative;
+	top: 700px;
+}
+.carousel-inner{
+	position: relative;
+	bottom:  -5px;
+}
+.icones button img{
+	padding: 6px;
+	border: none;
+	cursor: pointer;
+
+}.previas{
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+	font-family: sans-serif;
+}
+.titulos{
+	position: relative;
+	bottom: 700px;
+	right: 90px;
+
+}
+
+.box-filme2{
+	border-radius: 70rem;
+	padding: 15px;
+}
+
+.series{
+	position: relative;
+	 bottom:  5px;
+	font-size: 19px;
+	font-family: sans-serif;
+}

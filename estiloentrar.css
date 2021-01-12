@@ -1,0 +1,53 @@
+ form.login{
+	font-size: 20px;
+	padding-top:60px;
+	padding-left:  55px;
+	margin-left: 45px ;
+	margin-right: 30px;
+	margin-top:  70px;
+	border: dotted white;
+	
+}
+input[type="nome"]{
+	width: 900px;
+	padding: 8px;
+	margin-left: 5px ;
+	margin-bottom: 25px;
+	font-size: 20px;
+	border-radius: 8px;
+}
+input[type="email"]{
+	width: 900px;
+	padding: 8px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	border-radius: 8px;
+
+}
+input[type="password"]{
+	width: 600px;
+	padding: 8px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	border-radius: 8px;
+
+	}
+	input[type="submit"]{
+		position: relative;
+		bottom:  55px;
+	padding: 20px;
+	margin-left: 800px;
+	margin-top:  80px;
+	font-size: 16px;
+	border-radius: 8px;
+	background-color: white;
+	cursor: pointer;
+	
+
+	}
+	p{position: relative;
+	 bottom:  30px;
+	}
+
